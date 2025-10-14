@@ -1,0 +1,47 @@
+name: visand
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.8.1 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  camera: ^0.10.5+2
+  google_mlkit_document_scanner: ^0.2.0
+  flutter_tesseract_ocr: ^0.4.0
+  mobile_scanner: ^3.5.0
+  pdf: ^3.10.1
+  path_provider: ^2.0.15
+  share_plus: ^7.0.2
+  google_fonts: ^5.1.0
+  flutter_localizations:
+    sdk: flutter
+  provider: ^6.0.5
+  flutter_svg: ^2.0.7
+  animations: ^2.0.7
+  shimmer: ^3.0.0
+  lottie: ^2.6.0
+  shared_preferences: ^2.2.0
+  glassmorphism: any
+  page_transition: ^2.0.9
+  flutter_animate: ^4.1.1+1
+  flutter_custom_tabs: ^1.0.4
+  flutter_staggered_grid_view: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/tessdata/
+    - assets/sample_document.jpg
+    - assets/animations/
+    - assets/icons/

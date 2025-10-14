@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- تم اصلی اپلیکیشن -->
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_variant</item>
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorError">@color/error</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorOnSecondary">@color/on_secondary</item>
+        <item name="colorOnBackground">@color/on_background</item>
+        <item name="colorOnError">@color/on_error</item>
+        <item name="colorOnSurface">@color/on_surface</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/primary</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+    </style>
+
+    <!-- تم راه‌اندازی اپلیکیشن -->
+    <style name="LaunchTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowSplashScreenBackground">@color/launch_background</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+        <item name="android:windowSplashScreenBrandingImage">@mipmap/ic_launcher</item>
+        <item name="android:windowSplashScreenDisplayMode">fill</item>
+    </style>
+
+    <!-- تم عادی پس از راه‌اندازی -->
+    <style name="NormalTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>
